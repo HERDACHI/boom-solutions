@@ -21,9 +21,9 @@ Dentro de tu proyecto Astro, verás las siguientes carpetas y archivos:
 ├── src/
     ├── components/
     │   └── ArticleCard.tsx
-    ├── data
+    ├── data/
     │   └── articles.json
-    ├── layouts
+    ├── layouts/
     │   └── MainLayout.astro
     ├── pages/
     │   └──  index.astro
@@ -56,8 +56,9 @@ Dentro de tu proyecto Astro, verás las siguientes carpetas y archivos:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/proyecto-lista-articulos.git
-   cd proyecto-lista-articulos
+   git clone https://github.com/HERDACHI/boom-solutions
+   cd frontend-system
+   ```
 
 2. Instala las dependencias:
     npm install
@@ -65,7 +66,7 @@ Dentro de tu proyecto Astro, verás las siguientes carpetas y archivos:
 3. Inicia el servidor de desarrollo:
    npm run dev
 
-4. Abre tu navegador y navega a http://localhost:3000 para ver la aplicación en        funcionamiento.
+4. Abre tu navegador y navega a http://localhost:4321 para ver la aplicación en        funcionamiento.
 
 ## Uso
 - ArticleCard.tsx
