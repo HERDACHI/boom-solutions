@@ -1,0 +1,16 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import ArticleCard from '../components/ArticleCard.tsx';
+import Articles from '../data/articles.json';
+---
+
+<MainLayout>
+  <div class="articles-container">
+    <h1 class="articles-list-title ">Lista de Artículos</h1>
+    <div class="articles-list">
+      {Articles.map((article) => (
+        <ArticleCard article={article} client:load />
+      ))}
+    </div>
+  </div>
+</MainLayout>
